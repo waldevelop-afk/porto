@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio M. Ihwal Maulana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-switcher">
+        <input type="checkbox" id="themeToggle" class="theme-checkbox">
+        <label for="themeToggle" class="theme-label">
+            <div class="theme-icons">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="theme-ball"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>IHWAL<span class="logo-highlight">MAULANA</span></span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-nav="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link" data-nav="about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link" data-nav="projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-nav="skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#certificates" class="nav-link" data-nav="certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+                <li><a href="#contact" class="nav-link" data-nav="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="CV_M_Ihwal_Maulana.pdf" download class="btn-download">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+                <div class="nav-toggle">
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h5 class="hero-subtitle">Hello, I'm</h5>
+                            <h1 class="hero-title">M. Ihwal <span class="text-gradient">Maulana</span></h1>
+                            <h2 class="hero-role">Mahasiswa Manajemen Informatika & <span class="text-gradient">AI Enthusiast</span></h2>
+                            <p class="hero-description">
+                                Passionate tentang teknologi, khususnya Artificial Intelligence dan pengembangan web. 
+                                Selalu mencari tantangan baru untuk mengembangkan kemampuan dan berkontribusi pada inovasi teknologi.
+                            </p>
+                            
+                            <div class="hero-buttons">
+                                <a href="#contact" class="btn btn-primary btn-hover-effect">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>Get In Touch</span>
+                                </a>
+                                <a href="#projects" class="btn btn-secondary btn-hover-effect">
+                                    <i class="fas fa-code"></i>
+                                    <span>View Projects</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-image">
+                            <div class="image-container">
+                                <div class="image-frame">
+                                    <img src="https://i.ibb.co.com/ycKmT6Zp/Whats-App-Image-2026-02-08-at-10-19-23.jpg" 
+                                         alt="M. Ihwal Maulana" class="profile-image">
+                                </div>
+                                <div class="image-badge">
+                                    <i class="fas fa-code"></i>
+                                    <span>Available for Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="2">0</h3>
+                                <p class="stat-label">Semester</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="8">0</h3>
+                                <p class="stat-label">Projects</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="6">0</h3>
+                                <p class="stat-label">Certificates</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="85">0</h3>
+                                <p class="stat-label">AI Skills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">01</span>
+                        About Me
+                    </h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>I'm M. Ihwal Maulana, a passionate <span class="text-gradient">IT Student</span></h3>
+                        <p>
+                            Seorang mahasiswa Manajemen Informatika di Politeknik LP3I Pekanbaru yang sangat antusias dengan 
+                            perkembangan teknologi, khususnya di bidang Artificial Intelligence dan Web Development.
+                        </p>
+                        <p>
+                            Saya memiliki ketertarikan yang mendalam pada teknologi AI dan selalu mengikuti perkembangan 
+                            terbaru di bidang machine learning dan data science.
+                        </p>
+                        
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">M. Ihwal Maulana</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">ihwalmaulana09@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">08988098238</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Sei Pinang, 9 April 2008</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cards">
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Education</h4>
+                            <div class="education-timeline">
+                                <div class="edu-item">
+                                    <h5>Politeknik LP3I Pekanbaru</h5>
+                                    <span class="edu-date">2025 - Present</span>
+                                    <p>Manajemen Informatika - Semester 2</p>
+                                </div>
+                                <div class="edu-item">
+                                    <h5>SMA N 2 Kubu Babussalam</h5>
+                                    <span class="edu-date">2022 - 2025</span>
+                                    <p>Jurusan IPA - Nilai UN: 9.2</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Hobbies & Interests</h4>
+                            <div class="hobbies-grid">
+                                <div class="hobby-item">
+                                    <i class="fas fa-fish"></i>
+                                    <span>Mancing</span>
+                                </div>
+                                <div class="hobby-item">
+                                    <i class="fas fa-music"></i>
+                                    <span>Musik</span>
+                                </div>
+                                <div class="hobby-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Coding</span>
+                                </div>
+                                <div class="hobby-item">
+                                    <i class="fas fa-robot"></i>
+                                    <span>AI Research</span>
+                                </div>
+                                <div class="hobby-item">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reading</span>
+                                </div>
+                                <div class="hobby-item">
+                                    <i class="fas fa-basketball-ball"></i>
+                                    <span>Sports</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">02</span>
+                        My Projects
+                    </h2>
+                    <p class="section-subtitle">Recent work & portfolio</p>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="java">Java</button>
+                    <button class="filter-btn" data-filter="database">Database</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="java">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Library System">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Swing</span>
+                            </div>
+                            <h3 class="project-title">Library Management System</h3>
+                            <p class="project-description">
+                                Aplikasi desktop untuk manajemen koleksi buku, anggota, dan transaksi peminjaman dengan implementasi CRUD dan relational database.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3 class="project-title">Responsive Portfolio Website</h3>
+                            <p class="project-description">
+                                Website personal yang sepenuhnya responsif dengan implementasi modern CSS Grid, Flexbox, dan animasi CSS.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-external-link-alt"></i> Live
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="database">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Academic Database">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">MySQL</span>
+                                <span class="tag">ERD</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                            <h3 class="project-title">Academic Database System</h3>
+                            <p class="project-description">
+                                Perancangan database komprehensif untuk sistem akademik kampus dengan normalisasi hingga 3NF dan 50+ query kompleks.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-database"></i> ERD
+                                </a>
+                                <a href="#" class="project-btn">
+                                    <i class="fas fa-file-code"></i> SQL
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="E-commerce Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <h3 class="project-title">E-commerce Website</h3>
+                            <p class="project-description">
+                                Platform e-commerce modern dengan shopping cart, payment gateway, dan admin dashboard.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">
+                                    <i class="fab fa-github"></i> Frontend
+                                </a>
+                                <a href="#" class="project-btn">
+                                    <i class="fab fa-github"></i> Backend
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">03</span>
+                        My Skills
+                    </h2>
+                    <p class="section-subtitle">Technical expertise & abilities</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skills-categories">
+                        <div class="category-tabs">
+                            <button class="category-tab active" data-category="technical">Technical</button>
+                            <button class="category-tab" data-category="ai">AI & Data</button>
+                            <button class="category-tab" data-category="soft">Soft Skills</button>
+                        </div>
+                        
+                        <div class="category-content">
+                            <!-- Technical Skills -->
+                            <div class="skills-grid active" id="technical">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fab fa-java"></i>
+                                            <span>Java Programming</span>
+                                        </div>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fab fa-html5"></i>
+                                            <span>Web Development</span>
+                                        </div>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-database"></i>
+                                            <span>Database Management</span>
+                                        </div>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fab fa-git-alt"></i>
+                                            <span>Version Control</span>
+                                        </div>
+                                        <span class="skill-percent">75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- AI & Data Skills -->
+                            <div class="skills-grid" id="ai">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-brain"></i>
+                                            <span>Artificial Intelligence</span>
+                                        </div>
+                                        <span class="skill-percent">88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-chart-line"></i>
+                                            <span>Machine Learning</span>
+                                        </div>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-chart-bar"></i>
+                                            <span>Data Analysis</span>
+                                        </div>
+                                        <span class="skill-percent">82%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 82%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-project-diagram"></i>
+                                            <span>Data Visualization</span>
+                                        </div>
+                                        <span class="skill-percent">78%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Soft Skills -->
+                            <div class="skills-grid" id="soft">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-lightbulb"></i>
+                                            <span>Problem Solving</span>
+                                        </div>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-users"></i>
+                                            <span>Teamwork</span>
+                                        </div>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-comments"></i>
+                                            <span>Communication</span>
+                                        </div>
+                                        <span class="skill-percent">88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">
+                                            <i class="fas fa-tasks"></i>
+                                            <span>Time Management</span>
+                                        </div>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-illustration">
+                        <div class="skill-circles">
+                            <div class="circle main-circle">
+                                <div class="circle-content">
+                                    <i class="fas fa-code"></i>
+                                    <span>Skills</span>
+                                </div>
+                            </div>
+                            <div class="circle sub-circle" style="top: 20%; left: 10%;">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="circle sub-circle" style="top: 10%; right: 15%;">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="circle sub-circle" style="bottom: 20%; left: 15%;">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="circle sub-circle" style="bottom: 10%; right: 20%;">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section certificates-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">04</span>
+                        Certificates
+                    </h2>
+                    <p class="section-subtitle">Achievements & certifications</p>
+                </div>
+                
+                <div class="certificates-container">
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <div class="certificate-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3 class="certificate-title">Dasar Pemrograman Web</h3>
+                                <span class="certificate-provider">Dicoding Indonesia</span>
+                            </div>
+                        </div>
+                        <p class="certificate-description">
+                            Mempelajari fundamental HTML, CSS, dan JavaScript untuk pengembangan website modern.
+                        </p>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">Februari 2024</span>
+                            <a href="#" class="certificate-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <div class="certificate-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3 class="certificate-title">Introduction to Databases</h3>
+                                <span class="certificate-provider">Coursera - Stanford</span>
+                            </div>
+                        </div>
+                        <p class="certificate-description">
+                            Konsep dasar database, SQL queries, dan prinsip normalisasi database.
+                        </p>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">Januari 2024</span>
+                            <a href="#" class="certificate-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <div class="certificate-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3 class="certificate-title">Git & GitHub Fundamentals</h3>
+                                <span class="certificate-provider">Workshop Teknologi</span>
+                            </div>
+                        </div>
+                        <p class="certificate-description">
+                            Pelatihan praktis penggunaan version control system untuk kolaborasi pengembangan software.
+                        </p>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">Desember 2023</span>
+                            <a href="#" class="certificate-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card">
+                        <div class="certificate-header">
+                            <div class="certificate-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3 class="certificate-title">Microsoft Office Specialist</h3>
+                                <span class="certificate-provider">Microsoft Certification</span>
+                            </div>
+                        </div>
+                        <p class="certificate-description">
+                            Sertifikasi kompetensi penggunaan Microsoft Word, Excel, dan PowerPoint tingkat ahli.
+                        </p>
+                        <div class="certificate-footer">
+                            <span class="certificate-date">November 2023</span>
+                            <a href="#" class="certificate-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-number">05</span>
+                        Get In Touch
+                    </h2>
+                    <p class="section-subtitle">Let's work together</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>ihwalmaulana09@gmail.com</p>
+                                <a href="mailto:ihwalmaulana09@gmail.com" class="contact-link">
+                                    Send Message <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>08988098238</p>
+                                <a href="tel:08988098238" class="contact-link">
+                                    Call Now <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Sei Pinang, 9 April 2008</p>
+                                <a href="#" class="contact-link">
+                                    View Map <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="name" placeholder="Your Name" required>
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" placeholder="Your Email" required>
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>IHWAL<span class="logo-highlight">MAULANA</span></span>
+                </div>
+                <p class="footer-quote">
+                    "Terus belajar, terus berkembang, dan selalu berinovasi dalam teknologi."
+                </p>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        © <span id="currentYear"></span> M. Ihwal Maulana. All rights reserved.
+                    </p>
+                    <p class="footer-note">
+                        <i class="fas fa-heart"></i>
+                        Made with passion & dedication
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
